@@ -48,12 +48,12 @@
             <groupId>org.glassfish.jersey.inject</groupId>
             <artifactId>jersey-hk2</artifactId>
         </dependency>
-        <!-- uncomment this to get JSON support
+        
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-json-binding</artifactId>
         </dependency>
-        -->
+        
         <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
       <dependency>
     <groupId>javax.servlet</groupId>
@@ -61,6 +61,22 @@
     <version>4.0.1</version>
     <scope>provided</scope>
       </dependency>
+      
+      <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+     <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+    <dependency>
+    <groupId>org.hibernate</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>5.3.7.Final</version>
+    </dependency>
+
+      
+     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+   <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.20</version>
+  </dependency>
         
     </dependencies>
     <properties>
